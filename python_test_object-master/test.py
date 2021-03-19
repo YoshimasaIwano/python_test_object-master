@@ -7,8 +7,7 @@ filename = 'input.txt'
 
 with open(filename, 'r') as f:
     list = f.read().splitlines()
-    print(list)
-
+    
 m = int(list[-1])
 i = []
 s = []
